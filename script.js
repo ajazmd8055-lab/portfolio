@@ -48,7 +48,7 @@ const PROJECTS = [
 
     icon: "☁",
 
-    live: "",
+    live: "https://ajazmd8055-lab.github.io/weather-report/",
     code: "https://github.com/ajazmd8055-lab/weather-report.git"
   },
 
