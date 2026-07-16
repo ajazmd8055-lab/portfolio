@@ -27,8 +27,8 @@ const PROJECTS = [
 
     icon: "CV",
 
-    live: "#",
-    code: "#"
+    live: "https://ajazmd8055-lab.github.io/RESUME-DOWNLOADER/",
+    code: "./index.html"
   },
 
   {
@@ -69,7 +69,7 @@ const PROJECTS = [
 
     icon: "₹",
 
-    live: "#",
+    live: "https://ajazmd8055-lab.github.io/currency--converter/",
     code: "#"
   },
 
@@ -89,7 +89,7 @@ const PROJECTS = [
 
     icon: "%",
 
-    live: "#",
+    live: "https://ajazmd8055-lab.github.io/attendence-calculator/",
     code: "#"
   },
 
@@ -109,29 +109,12 @@ const PROJECTS = [
 
     icon: "+",
 
-    live: "#",
-    code: "#"
+    live: "https://ajazmd8055-lab.github.io/CALCULATOR/",
+    code: "./RESUME-AJAZ"
   },
 
-  {
-    title: "Netflix UI Clone",
-    tag: "ui project",
-    category: "ui",
-    year: "2026",
+  
 
-    desc: "A responsive streaming-platform interface created to practise layouts, cards, navigation, backgrounds and modern CSS styling.",
-
-    stack: [
-      "HTML",
-      "CSS",
-      "Responsive Design"
-    ],
-
-    icon: "N",
-
-    live: "#",
-    code: "#"
-  }
 ];
 
 
