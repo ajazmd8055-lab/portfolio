@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Ajaz Ahmed — Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Mohammed Ajaz Ahmed, a Computer Science and Data Science student building web applications with HTML, CSS and JavaScript.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark" aria-label="Home">MA</a>
+
+    <nav class="nav__links">
+      <a href="#work">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="mailto:ajazmd8055@gmail.com" class="nav__cta">Hire me</a>
+
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav__mobile" id="navMobile">
+    <a href="#work">Projects</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <p class="eyebrow reveal">Portfolio — B.Tech CSE-DS Student</p>
+
+      <h1 class="hero__title reveal">
+        Mohammed Ajaz Ahmed builds
+        <span class="hero__role"><span id="roleText">interactive web experiences</span></span>
+      </h1>
+
+      <p class="hero__lede reveal">
+        I am a Computer Science and Data Science student who enjoys turning ideas
+        into responsive websites using HTML, CSS and JavaScript. I am currently
+        learning full-stack development and building projects for internship opportunities.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a href="#work" class="btn btn--solid">View my projects</a>
+        <a href="mailto:ajazmd8055@gmail.com" class="btn btn--ghost">Email me</a>
+      </div>
+    </div>
+
+    <div class="hero__status reveal">
+      <span class="dot dot--live"></span>
+      <span>STATUS — Open to internships and learning opportunities</span>
+    </div>
+
+    <a href="#work" class="scroll-cue" aria-label="Scroll to projects"><span></span></a>
+  </section>
+
+  <section class="index" id="work">
+    <div class="section-head reveal">
+      <p class="eyebrow">Selected Work</p>
+      <h2>My Projects</h2>
+      <p class="section-head__desc">
+        Projects I built while learning frontend development and JavaScript.
+        Click any project to see its details.
+      </p>
+    </div>
+
+    <div class="filters reveal" id="filters">
+      <button class="filter is-active" data-filter="all">All</button>
+      <button class="filter" data-filter="web">Web Apps</button>
+      <button class="filter" data-filter="tool">Tools</button>
+      <button class="filter" data-filter="ui">UI Projects</button>
+    </div>
+
+    <div class="ledger" id="ledger"></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__grid">
+      <div class="about__figure reveal">
+        <svg viewBox="0 0 320 320" class="about__mark" aria-hidden="true">
+          <circle cx="160" cy="160" r="118" class="ring ring--1"/>
+          <circle cx="160" cy="160" r="86" class="ring ring--2"/>
+          <line x1="160" y1="20" x2="160" y2="300" class="ring ring--3"/>
+          <line x1="20" y1="160" x2="300" y2="160" class="ring ring--3"/>
+          <text x="160" y="172" text-anchor="middle" class="about__initials">MA</text>
+        </svg>
+      </div>
+
+      <div class="about__copy reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>A student developer learning by building real projects.</h2>
+
+        <p>
+          Hello! I am Mohammed Ajaz Ahmed, a B.Tech Computer Science and Data
+          Science student from India. I enjoy web development, programming and
+          solving practical problems through code.
+        </p>
+
+        <p>
+          I have worked with C, Python, HTML, CSS and JavaScript. My goal is to
+          become a full-stack developer, improve my problem-solving skills and
+          secure a software development internship where I can learn and contribute.
+        </p>
+
+        <div class="about__facts">
+          <div class="fact">
+            <span class="fact__k">Based in</span>
+            <span class="fact__v">India</span>
+          </div>
+          <div class="fact">
+            <span class="fact__k">Focus</span>
+            <span class="fact__v">Web Development</span>
+          </div>
+          <div class="fact">
+            <span class="fact__k">Currently</span>
+            <span class="fact__v">B.Tech CSE-DS Student</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="toolbox" id="skills">
+    <div class="section-head reveal">
+      <p class="eyebrow">My Toolbox</p>
+      <h2>Skills I use and learn</h2>
+    </div>
+
+    <div class="toolbox__grid">
+      <div class="tool-cat reveal">
+        <h3>Languages</h3>
+        <ul>
+          <li>C</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>SQL Basics</li>
+        </ul>
+      </div>
+
+      <div class="tool-cat reveal">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Responsive Design</li>
+          <li>DOM Manipulation</li>
+        </ul>
+      </div>
+
+      <div class="tool-cat reveal">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+          <li>GitHub Pages</li>
+        </ul>
+      </div>
+
+      <div class="tool-cat reveal">
+        <h3>Learning Next</h3>
+        <ul>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__grid">
+      <div class="contact__copy reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let us build something useful.</h2>
+        <p>
+          I am open to internships, collaborations and opportunities to learn.
+          You can contact me directly using my email or phone number.
+        </p>
+
+        <ul class="contact__links">
+          <li><a href="mailto:ajazmd8055@gmail.com">ajazmd8055@gmail.com</a></li>
+          <li><a href="tel:+918125235267">+91 81252 35267</a></li>
+          <li><a href="https://github.com/ajazmd8055-lab" target="_blank" rel="noopener">GitHub Profile ↗</a></li>
+        </ul>
+      </div>
+
+      <form class="contact__form reveal" id="contactForm">
+        <div class="field">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Your Email</label>
+          <input id="email" name="email" type="email" placeholder="name@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--solid btn--wide">
+          <span class="btn__label">Send by email</span>
+        </button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Mohammed Ajaz Ahmed. Built with HTML, CSS and JavaScript.</p>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
