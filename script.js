@@ -28,7 +28,7 @@ const PROJECTS = [
     icon: "CV",
 
     live: "https://ajazmd8055-lab.github.io/RESUME-DOWNLOADER/",
-    code: "./index.html"
+    code: "https://github.com/ajazmd8055-lab/RESUME-DOWNLOADER.git"
   },
 
   {
@@ -48,8 +48,8 @@ const PROJECTS = [
 
     icon: "☁",
 
-    live: "#",
-    code: "#"
+    live: "",
+    code: "https://github.com/ajazmd8055-lab/weather-report.git"
   },
 
   {
@@ -70,7 +70,7 @@ const PROJECTS = [
     icon: "₹",
 
     live: "https://ajazmd8055-lab.github.io/currency--converter/",
-    code: "#"
+    code: "https://github.com/ajazmd8055-lab/currency--converter.git"
   },
 
   {
@@ -90,7 +90,7 @@ const PROJECTS = [
     icon: "%",
 
     live: "https://ajazmd8055-lab.github.io/attendence-calculator/",
-    code: "#"
+    code: "https://github.com/ajazmd8055-lab/attendence-calculator.git"
   },
 
   {
@@ -110,7 +110,7 @@ const PROJECTS = [
     icon: "+",
 
     live: "https://ajazmd8055-lab.github.io/CALCULATOR/",
-    code: "./RESUME-AJAZ"
+    code: "https://github.com/ajazmd8055-lab/CALCULATOR.git"
   },
 
   
