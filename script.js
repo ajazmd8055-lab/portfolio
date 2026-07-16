@@ -1,13 +1,3 @@
-/* ============================================================
-   ADD YOUR REAL LIVE AND GITHUB LINKS BELOW
-
-   Replace "#" after uploading each project.
-
-   Example:
-
-   live: "https://your-project.vercel.app",
-   code: "https://github.com/ajazmd8055-lab/project-name"
-   ============================================================ */
 
 const PROJECTS = [
   {
